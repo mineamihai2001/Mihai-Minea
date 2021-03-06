@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    padding-top: 4rem;
+}
+h2{
+    text-align: center;
+}
+h4{
+    display: inline-block;
+    font-size: 1.3rem;
+}
+p{
+    display: inline-block;
+    font-size: 1.3rem;
+    margin-left: 3rem;
+}
+.top-container{
+    background-image: url(/images/mountains.jpg);
+    text-align: center;
+}
+.middle-container{
+   margin-bottom: 8rem;
+}
+.bottom-container{
+    height: 7rem;
+    margin-top: 5rem;
+    background-color: #ff4444;
+    text-align: center;
+}
+.profil{
+    height: 11rem;
+    border-radius: 100%;
+    margin-top: 4rem;
+    margin-bottom: 13rem;
+}
+.date{
+    padding-top: 11rem;
+}
+.an{
+    text-align: left;  
+    padding-top: 5rem; 
+}
+.ed-img{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 100%;
+    margin-top: 2rem;
+    margin-left: 15rem;
+    
+}
+.category{
+    margin-bottom: 3rem;
+    margin-top: 8rem;
+}
+.sk-img{
+    height: 6rem;
+    width: 6rem;
+    margin-left: 15rem;
+}
+.sk-img1{
+    height: 6rem;
+    width: 6rem;
+    margin: 3rem 0 3rem 12rem; 
+}
+.sk-img2{
+    height: 6rem;
+    width: 6rem;
+    margin: 3rem 0 3rem 0;
+}
+.cpp{
+    margin-left: 18rem;
+}
+.html{
+    margin-left: 11.5rem;
+}
+.skills{
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+}
+.skill{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.language{
+    margin-left: 4rem;
+    
+}
+.icon{
+    width: 2rem;
+    padding-top: 2rem;
+}
+.contact{
+    display: inline-block;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.link{
+    display: block;
+}
