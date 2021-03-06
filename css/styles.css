@@ -18,7 +18,7 @@ p{
     margin-left: 3rem;
 }
 .top-container{
-    background-image: url(/images/mountains.jpg);
+    background-image: url('/images/mountains.jpg');
     text-align: center;
 }
 .middle-container{
