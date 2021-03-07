@@ -22,7 +22,7 @@ p{
     text-align: center;
 }
 .middle-container{
-   margin-bottom: 8rem;
+   
 }
 .bottom-container{
     height: 7rem;
@@ -36,56 +36,53 @@ p{
     margin-top: 4rem;
     margin-bottom: 13rem;
 }
-.date{
-    padding-top: 11rem;
+.arrow{
+    position: absolute;
+    display: block;
+    border: solid rgb(228, 224, 224);
+    border-width: 0 5px 5px 0;
+    padding: 10px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin-left: 40rem;
+    margin-top: 35rem;
+}
+.arrow:hover{
+    border-color: rgb(31, 24, 24);
 }
 .an{
     text-align: left;  
-    padding-top: 5rem; 
+    padding-top: 1rem; 
 }
 .ed-img{
     height: 6rem;
     width: 6rem;
-    border-radius: 100%;
-    margin-top: 2rem;
-    margin-left: 15rem;
-    
+    border-radius: 100%;   
 }
 .category{
     margin-bottom: 3rem;
-    margin-top: 8rem;
+    margin-top: 5rem;
 }
 .sk-img{
     height: 6rem;
     width: 6rem;
-    margin-left: 15rem;
 }
 .sk-img1{
     height: 6rem;
     width: 6rem;
-    margin: 3rem 0 3rem 12rem; 
 }
 .sk-img2{
     height: 6rem;
     width: 6rem;
-    margin: 3rem 0 3rem 0;
-}
-.cpp{
-    margin-left: 18rem;
-}
-.html{
-    margin-left: 11.5rem;
 }
 .skills{
-    margin-top: 8rem;
+    margin-top: 5rem;
     margin-bottom: 3rem;
 }
-.skill{
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-}
+
 .language{
-    margin-left: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
     
 }
 .icon{
@@ -99,4 +96,9 @@ p{
 }
 .link{
     display: block;
+}
+.row{
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
