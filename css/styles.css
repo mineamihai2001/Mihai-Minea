@@ -21,9 +21,6 @@ p{
     background-image: url(https://wallpapershome.com/images/pages/pic_h/11473.jpg);
     text-align: center;
 }
-.middle-container{
-   
-}
 .bottom-container{
     height: 7rem;
     margin-top: 5rem;
@@ -67,23 +64,13 @@ p{
     height: 6rem;
     width: 6rem;
 }
-.sk-img1{
-    height: 6rem;
-    width: 6rem;
-}
-.sk-img2{
-    height: 6rem;
-    width: 6rem;
-}
 .skills{
     margin-top: 5rem;
     margin-bottom: 3rem;
 }
-
 .language{
     padding-top: 1rem;
     padding-bottom: 4rem;
-    
 }
 .icon{
     width: 2rem;
