@@ -19,7 +19,10 @@ p{
 }
 .top-container{
     background-image: url(https://wallpapershome.com/images/pages/pic_h/11473.jpg);
+    background-position: left top;
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 .bottom-container{
     height: 7rem;
