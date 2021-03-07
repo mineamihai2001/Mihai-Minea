@@ -16,19 +16,28 @@
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button> 
-    <a class="navbar-brand ms-4" href="">Home</a>
+    <a class="navbar-brand ms-4" href="#top">Home</a>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <div class="navbar-nav ms-auto gap-3 fs-5">
-          <a class="nav-link" href="#">Education</a>
-          <a class="nav-link" href="#">Skills</a>
-          <a class="nav-link" href="#">ContactMe</a>
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Skills
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown"></li>
+                <li><a class="dropdown-item" href="#digital">Digital</a></li>
+                <li><a class="dropdown-item" href="#language">Language</a></li>
+          </ul>
+              <li class="nav-item"><a class="nav-link" href="#contactme">ContactMe</a></li>
+              <li class="nav-item"><a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a></li>
+          </ul>
         </div>
       </div>
   </nav>
                       <!-------Home------->
-    <div class="top-container">
-      <a class="arrow"></a>
+    <div id="top" class="top-container">
+      <a class="arrow" href="#education"></a>
         <h1>Mihai Minea</h1>
         <h3>web developer</h3>
         <img class="profil" src="https://scontent.fias1-1.fna.fbcdn.net/v/t1.0-9/112872969_3227191944069015_2490595677395864168_o.jpg?_nc_cat=104&ccb=3&_nc_sid=09cbfe&_nc_ohc=4DC8g066y9IAX-3X1c2&_nc_ht=scontent.fias1-1.fna&oh=b87a87abe04c3ca9e88389315d8a9355&oe=605380A5" alt="none">  
@@ -36,7 +45,7 @@
 
     <div class="middle-container">
                       <!-------Education------->
-      <div>
+      <div id="education">
         <h2 class="category">Education</h2>
         <div class="mt-5 mb-5">
           <h3 class="an ms-5">2016 - 2020:</h3>
@@ -68,9 +77,9 @@
 
                       <!-------Skills------->
 
-      <div>
+      <div id="skills">
         <h2 class="category">Skills</h2>
-        <div>
+        <div id="digital">
           <h3 class="skills mb-5 ms-5">Digital</h3>
           <div class="row align-items-center mb-5 mt-5">
             <div class="col-lg-2 col-md-2 col-sm-2 col-1"></div>
@@ -93,7 +102,7 @@
           </div>
 
         </div>
-        <div>
+        <div id="language">
           <h3 class="skills language mb-5 ms-5">Language</h3>
           <div class="row align-items-center mb-5 mt-5">
             <div class="col-lg-2 col-md-2 col-sm-2 col-1"></div>
@@ -111,7 +120,7 @@
       </div>     
     </div>
                       <!-------Contact------->    
-    <div class="bottom-container">
+    <div id="contactme" class="bottom-container">
       <div class="contact">
         <img class="icon" src="images/facebook_logo.png" alt="">
         <a class="link" href="https://www.facebook.com/kiki.jiji.988" target="blank">Facebook</a>
