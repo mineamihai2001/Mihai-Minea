@@ -44,8 +44,8 @@ p{
     padding: 10px;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
-    margin-left: 40rem;
-    margin-top: 35rem;
+    margin-left: 48vw;
+    margin-top: 34.5rem;
 }
 .arrow:hover{
     border-color: rgb(31, 24, 24);
