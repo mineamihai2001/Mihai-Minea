@@ -78,8 +78,8 @@ p{
 }
 .contact{
     display: inline-block;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 2vw;
+    margin-right: 2vw;
 }
 .link{
     display: block;
