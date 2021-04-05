@@ -8,7 +8,7 @@ h1{
 h2{
     text-align: center;
 }
-h4{
+html h4{
     display: inline-block;
     font-size: 1.3rem;
 }
@@ -64,8 +64,7 @@ p{
     margin-top: 5rem;
 }
 .sk-img{
-    height: 6rem;
-    width: 6rem;
+    width: 4rem;
 }
 .skills{
     margin-top: 5rem;
