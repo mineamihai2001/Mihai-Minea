@@ -8,14 +8,9 @@ h1{
 h2{
     text-align: center;
 }
-html h4{
+html h4, p{
     display: inline-block;
     font-size: 1.3rem;
-}
-p{
-    display: inline-block;
-    font-size: 1.3rem;
-    margin-left: 3rem;
 }
 .top-container{
     background-image: url(https://wallpapershome.com/images/pages/pic_h/11473.jpg);
@@ -55,7 +50,6 @@ p{
     padding-top: 1rem; 
 }
 .ed-img{
-    height: 6rem;
     width: 6rem;
     border-radius: 100%;   
 }
@@ -85,6 +79,19 @@ p{
 }
 .link{
     display: block;
+}
+a:link{
+    color:white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color: gray;
+}
+a:active{
+    color: white;
 }
 .row{
     width: 100%;
