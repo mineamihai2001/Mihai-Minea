@@ -1,100 +1,98 @@
-body{
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
 }
-h1{
-    padding-top: 4rem;
+h1 {
+  padding-top: 4rem;
 }
-h2{
-    text-align: center;
+h2 {
+  text-align: center;
 }
-html h4, p{
-    display: inline-block;
-    font-size: 1.3rem;
+html h4,
+p {
+  display: inline-block;
+  font-size: 1.3rem;
 }
-.top-container{
-    background-image: url(https://wallpapershome.com/images/pages/pic_h/11473.jpg);
-    background-position: left top;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+.top-container {
+  background-image: url(https://wallpapershome.com/images/pages/pic_h/11473.jpg);
+  background-position: left top;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
-.bottom-container{
-    height: 7rem;
-    margin-top: 5rem;
-    background-color: #ff4444;
-    text-align: center;
+.bottom-container {
+  height: 7rem;
+  margin-top: 5rem;
+  background-color: #ff4444;
+  text-align: center;
 }
-.profil{
-    height: 11rem;
-    border-radius: 100%;
-    margin-top: 4rem;
-    margin-bottom: 13rem;
+.profil {
+  width: 11rem;
+  border-radius: 100%;
+  margin-top: 4rem;
+  margin-bottom: 13rem;
 }
-.arrow{
-    position: absolute;
-    display: block;
-    border: solid rgb(228, 224, 224);
-    border-width: 0 5px 5px 0;
-    padding: 10px;
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    margin-left: 48vw;
-    margin-top: 34.5rem;
+.arrow {
+  position: absolute;
+  display: block;
+  border: solid rgb(228, 224, 224);
+  border-width: 0 5px 5px 0;
+  padding: 10px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  margin-left: 48vw;
+  margin-top: 34.5rem;
 }
-.arrow:hover{
-    border-color: rgb(31, 24, 24);
+.arrow:hover {
+  border-color: rgb(22, 21, 21);
 }
-.an{
-    text-align: left;  
-    padding-top: 1rem; 
+.an {
+  text-align: left;
+  padding-top: 1rem;
 }
-.ed-img{
-    width: 6rem;
-    border-radius: 100%;   
+.ed-img {
+  width: 6rem;
+  border-radius: 100%;
 }
-.category{
-    margin-bottom: 3rem;
-    margin-top: 5rem;
+.category, .skills {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+
 }
-.sk-img{
-    width: 4rem;
+.sk-img {
+  width: 4rem;
 }
-.skills{
-    margin-top: 5rem;
-    margin-bottom: 3rem;
+.language {
+  padding-top: 1rem;
+  padding-bottom: 4rem;
 }
-.language{
-    padding-top: 1rem;
-    padding-bottom: 4rem;
+.icon {
+  width: 2rem;
+  padding-top: 2rem;
 }
-.icon{
-    width: 2rem;
-    padding-top: 2rem;
+.contact {
+  display: inline-block;
+  margin-left: 2vw;
+  margin-right: 2vw;
 }
-.contact{
-    display: inline-block;
-    margin-left: 2vw;
-    margin-right: 2vw;
+.link {
+  display: block;
 }
-.link{
-    display: block;
+.link:link {
+  color: white;
+  text-decoration: none;
 }
-a:link{
-    color:white;
-    text-decoration: none;
+.link:visited {
+  color: white;
 }
-a:visited{
-    color: white;
+.link:hover {
+  color: rgb(255, 189, 189);
 }
-a:hover{
-    color: gray;
+.link:active {
+  color: white;
 }
-a:active{
-    color: white;
-}
-.row{
-    width: 100%;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+.row {
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
